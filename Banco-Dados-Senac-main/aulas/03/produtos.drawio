@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2024-02-17T01:01:30.273Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="9W3gctjXz0LOwNP-S1lH" version="23.1.5" type="device">
+  <diagram name="Página-1" id="zSxEKoCvvoKd-wm4mPc6">
+    <mxGraphModel dx="609" dy="350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HakeheBa0rfwWfwoSgdx-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="HakeheBa0rfwWfwoSgdx-1" target="HakeheBa0rfwWfwoSgdx-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-10" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HakeheBa0rfwWfwoSgdx-5">
+          <mxGeometry x="-0.3114" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-1" value="CLIENTE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-2" value="PRODUTO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="HakeheBa0rfwWfwoSgdx-3" target="HakeheBa0rfwWfwoSgdx-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-13" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HakeheBa0rfwWfwoSgdx-8">
+          <mxGeometry x="-0.2408" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-3" value="PEDIDO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="HakeheBa0rfwWfwoSgdx-4" target="HakeheBa0rfwWfwoSgdx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-11" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HakeheBa0rfwWfwoSgdx-6">
+          <mxGeometry y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-4" value="REALIZA" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="HakeheBa0rfwWfwoSgdx-7" target="HakeheBa0rfwWfwoSgdx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="510" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-12" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HakeheBa0rfwWfwoSgdx-9">
+          <mxGeometry x="0.4302" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HakeheBa0rfwWfwoSgdx-7" value="ITENS_DO_PEDIDO" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="240" width="130" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
